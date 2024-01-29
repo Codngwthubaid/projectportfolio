@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodngWthUbaid - Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://registry.npmjs.org/@emailjs/browser/-/browser-3.12.1.tgz"></script>
+</head>
+
+<body>
+    <header>
+        <div class="heading-border">
+            <a id="back-to-home-page-click" href="index.html">
+                <img src="Images Required/LightBlue-Arrow.png" alt="Arrow Img">
+                <div>Mohammad Ubaid Ansari</div>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <article id="article-first">
+                <div class="line"></div>
+                <h1 id="main-heading">CONTACT</h1>
+            </article>
+
+            <article id="article-second">
+                <div class="links">
+                    <div>
+                        <a href="https://github.com/Codngwthubaid" target="_blank">
+                            <img class="img-setting" src="Images Required/White-GitHub.png" alt="github img">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.instagram.com/codngwthubaid/" target="_blank">
+                            <img class="img-setting-1" src="Images Required/White-Instagram-2.png" alt="instagram img">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://twitter.com/codngwthubaid" target="_blank">
+                            <img class="img-setting-2" src="Images Required/White-Twitterx-2.png" alt="X img">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.linkedin.com/in/codngwthubaid/" target="_blank">
+                            <img class="img-setting-2" src="Images Required/White-Linkedin.png" alt="linkedin img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="more-than1000px-flex-contact">
+                    <div id="implimenting-img">
+                        <img src="Images Required/Ubaid Portfolio Img.jpg" alt="">
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-name">
+                            <div>Enter Your Name</div>
+                            <input id="contact-name-input" type="text" placeholder="Abcpqr">
+                        </div>
+
+                        <div class="contact-email">
+                            <div>Enter Your Email</div>
+                            <input id="contact-email-input" type="email" placeholder="Abcpqr@gmail.com">
+
+                        </div>
+
+                        <div class="contact-msg">
+                            <div>Drop Your Message</div>
+                            <textarea id="contact-msg-input" placeholder="Hello, My Name is ....." cols="30"
+                                rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <button onclick="sendmsg();">Submit</button>
+    </footer>
+    <script src="contact.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("SM8asVDSZJqrnsEZt");
+        })();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,550 @@
+@media screen and (min-width: 50px) and (max-width:599px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #0f172a;
+    }
+
+    :root {
+        --background-color: #0f172a;
+        --bold-content-color: #e2e8f0;
+        --nonbold-content-color: #505e75;
+        --capsules-content-color: #4fc5b6;
+        --capsules-background-color: #122b39;
+    }
+
+    * {
+        background-color: var(--background-color);
+        color: var(--bold-content-color);
+        margin: 0px;
+    }
+
+    body {
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .table-content-morethan-450 {
+        display: none;
+    }
+
+    .table-content-head-morethan-450 {
+        display: none;
+    }
+
+    .table-content-morethan-1000 {
+        display: none;
+    }
+
+    .table-content-head-morethan-1000 {
+        display: none;
+    }
+
+    .project-heading {
+        margin-top: 3vh;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: var(--bold-content-color);
+    }
+
+    #back-to-home-page-click {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 2vw;
+        text-decoration: none;
+    }
+
+    #back-to-home-page-click div {
+        font-size: 1.10rem;
+        font-weight: 500;
+        color: var(--capsules-content-color);
+        background-color: var(--capsules-background-color);
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+
+    #back-to-home-page-click img {
+        cursor: pointer;
+        width: 5vw;
+        transform: rotate(180deg);
+    }
+
+    .table-content-head {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.20rem;
+        text-align: justify;
+    }
+
+    .table-content {
+        padding: 3vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1rem;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .table-content a {
+        text-decoration: none;
+    }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (min-width: 600px) and (max-width: 999px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #0f172a;
+    }
+
+    :root {
+        --background-color: #0f172a;
+        --bold-content-color: #e2e8f0;
+        --nonbold-content-color: #505e75;
+        --capsules-content-color: #4fc5b6;
+        --capsules-background-color: #122b39;
+    }
+
+    * {
+        background-color: var(--background-color);
+        color: var(--bold-content-color);
+        margin: 0px;
+    }
+
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .table-content-head-morethan-1000 {
+        display: none;
+    }
+
+    .table-content-morethan-1000 {
+        display: none;
+    }
+
+    .table-content-head-morethan-450 {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.30rem;
+        text-align: justify;
+    }
+
+
+    .project-heading {
+        margin-top: 3vh;
+        font-size: 1.90rem;
+        font-weight: 600;
+        color: var(--bold-content-color);
+    }
+
+    #back-to-home-page-click {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 2vw;
+        text-decoration: none;
+    }
+
+    #back-to-home-page-click div {
+        font-size: 1.40rem;
+        font-weight: 500;
+        color: var(--capsules-content-color);
+        background-color: var(--capsules-background-color);
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+
+
+    #back-to-home-page-click img {
+        cursor: pointer;
+        width: 4vw;
+        transform: rotate(180deg);
+    }
+
+    .table-content-head {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+
+    .table-content {
+        padding: 3vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.03rem;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .table-content-morethan-450 {
+        padding: 3vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.03rem;
+        font-weight: 400;
+    }
+
+    .table-content-morethan-450:hover {
+        color: var(--capsules-content-color);
+        cursor: pointer;
+    }
+
+    .table-content-morethan-450 a {
+        text-decoration: none;
+    }
+
+    .table-content a {
+        text-decoration: none;
+    }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (min-width: 1000px) and (max-width: 1499px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #0f172a;
+    }
+
+    :root {
+        --background-color: #0f172a;
+        --bold-content-color: #e2e8f0;
+        --nonbold-content-color: #505e75;
+        --capsules-content-color: #4fc5b6;
+        --capsules-background-color: #122b39;
+    }
+
+    * {
+        background-color: var(--background-color);
+        color: var(--bold-content-color);
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .table-content-head-morethan-1000 {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.30rem;
+        text-align: justify;
+    }
+
+    .table-content-morethan-1000 {
+        padding: 3vh 5vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.03rem;
+        font-weight: 400;
+    }
+
+    .skill-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .skill-flex div {
+        background-color: var(--capsules-background-color);
+        color: var(--capsules-content-color);
+        font-size: 12.5px;
+        padding: 5px 8px;
+        border-radius: 20px;
+    }
+
+    .table-content-head-morethan-450 {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.30rem;
+        text-align: justify;
+    }
+
+
+    .project-heading {
+        margin-top: 3vh;
+        font-size: 1.90rem;
+        font-weight: 600;
+        color: var(--bold-content-color);
+    }
+
+    #back-to-home-page-click {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 2vw;
+        text-decoration: none;
+    }
+
+    #back-to-home-page-click div {
+        font-size: 1.50rem;
+        font-weight: 500;
+        color: var(--capsules-content-color);
+        background-color: var(--capsules-background-color);
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+
+
+    #back-to-home-page-click img {
+        cursor: pointer;
+        width: 3vw;
+        transform: rotate(180deg);
+    }
+
+    .table-content-head {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.50rem;
+        text-align: justify;
+    }
+
+    .table-content {
+        padding: 3vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.03rem;
+        font-weight: 400;
+    }
+
+    .table-content-morethan-450 {
+        padding: 3vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.03rem;
+        font-weight: 400;
+    }
+
+    .table-content-morethan-450:hover {
+        color: var(--capsules-content-color);
+        cursor: pointer;
+    }
+
+    .table-content-morethan-450 a {
+        text-decoration: none;
+    }
+
+    .table-content a {
+        text-decoration: none;
+    }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (min-width: 1500px) and (max-width: 1999px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #0f172a;
+    }
+
+    :root {
+        --background-color: #0f172a;
+        --bold-content-color: #e2e8f0;
+        --nonbold-content-color: #505e75;
+        --capsules-content-color: #4fc5b6;
+        --capsules-background-color: #122b39;
+    }
+
+    * {
+        background-color: var(--background-color);
+        color: var(--bold-content-color);
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .table-content-head-morethan-1000 {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.70rem;
+        text-align: justify;
+    }
+
+    .table-content-morethan-1000 {
+        padding: 3vh 5vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.03rem;
+        font-weight: 400;
+    }
+
+    .skill-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .skill-flex div {
+        background-color: var(--capsules-background-color);
+        color: var(--capsules-content-color);
+        font-size: 17px;
+        padding: 5px 8px;
+        border-radius: 20px;
+    }
+
+    .table-content-head-morethan-450 {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.70rem;
+        text-align: justify;
+    }
+
+
+    .project-heading {
+        margin-top: 3vh;
+        font-size: 1.90rem;
+        font-weight: 600;
+        color: var(--bold-content-color);
+    }
+
+    #back-to-home-page-click {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 2vw;
+        text-decoration: none;
+    }
+
+    #back-to-home-page-click div {
+        font-size: 1.50rem;
+        font-weight: 500;
+        color: var(--capsules-content-color);
+        background-color: var(--capsules-background-color);
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+
+
+    #back-to-home-page-click img {
+        cursor: pointer;
+        width: 3vw;
+        transform: rotate(180deg);
+    }
+
+    .table-content-head {
+        font-weight: 500;
+        padding: 5vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.70rem;
+        text-align: justify;
+    }
+
+    .table-content {
+        padding: 3vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .table-content-morethan-450 {
+        padding: 3vh 10vw 3vh 0px;
+        color: var(--bold-content-color);
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .table-content-morethan-450:hover {
+        color: var(--capsules-content-color);
+        cursor: pointer;
+    }
+
+    .table-content-morethan-450 a {
+        text-decoration: none;
+    }
+
+    .table-content a {
+        text-decoration: none;
+    }
+}
