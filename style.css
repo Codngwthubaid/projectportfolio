@@ -387,7 +387,7 @@
 
     .All-Projects>div:last-child img {
         width: 17px;
-        transform: rotate(182deg);
+        transform: rotate(225deg);
     }
 
     #Fivth-Section {
@@ -489,7 +489,7 @@
     }
 
     .All-Blogs>div:last-child img {
-        transform: rotate(182deg);
+        transform: rotate(225deg);
         width: 17px;
     }
 
@@ -514,7 +514,7 @@
     }
 
     .Contact-2>div:last-child img {
-        transform: rotate(182deg);
+        transform: rotate(225deg);
         width: 17px;
     }
 
@@ -867,7 +867,7 @@
     .RESUME div:last-child img {
         width: 17px;
         /* border: 1px solid red; */
-        transform: rotate(182deg);
+        transform: rotate(225deg);
     }
 
     .Projects {
@@ -1013,7 +1013,7 @@
 
     .All-Projects>div:last-child img {
         width: 17px;
-        transform: rotate(182deg);
+        transform: rotate(225deg);
     }
 
     #Fivth-Section {
@@ -1113,7 +1113,7 @@
     }
 
     .All-Blogs>div:last-child img {
-        transform: rotate(182deg);
+        transform: rotate(225deg);
         width: 17px;
     }
 
@@ -1138,7 +1138,7 @@
     }
 
     .Contact-2>div:last-child img {
-        transform: rotate(182deg);
+        transform: rotate(225deg);
         width: 17px;
     }
 
@@ -1518,7 +1518,7 @@
 
     .RESUME div:last-child img {
         width: 17px;
-        transform: rotate(182deg);
+        transform: rotate(225deg);
     }
 
     .Projects {
@@ -1698,7 +1698,7 @@
 
     .All-Projects>div:last-child img {
         width: 17px;
-        transform: rotate(182deg);
+        transform: rotate(225deg);
     }
 
     #Fivth-Section {
@@ -1798,7 +1798,7 @@
     }
 
     .All-Blogs>div:last-child img {
-        transform: rotate(182deg);
+        transform: rotate(225deg);
         width: 17px;
     }
 
@@ -1823,7 +1823,7 @@
     }
 
     .Contact-2>div:last-child img {
-        transform: rotate(182deg);
+        transform: rotate(225deg);
         width: 17px;
     }
 
@@ -2574,7 +2574,7 @@
 /*  */
 /*  */
 /*  */
-@media screen and (min-width: 1500px) and (max-width: 1999px) {
+@media screen and (min-width: 1500px){
 
     * {
         margin: 0;
