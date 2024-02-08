@@ -2591,6 +2591,9 @@
         --capsules-background-color: #122b39;
     }
 
+    #main-center{
+        display: flex;
+    }
 
     #main-first-flex {
         display: flex;
