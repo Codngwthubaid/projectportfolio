@@ -1932,7 +1932,7 @@
 /*  */
 /*  */
 /*  */
-/*  */
+/* 
 @media screen and (min-width: 1000px) and (max-width: 1499px) {
 
     * {
@@ -2556,7 +2556,7 @@
         text-decoration: none;
         color: var(--bold-content-color);
     }
-}
+} */
 
 /*  */
 /*  */
@@ -2574,7 +2574,7 @@
 /*  */
 /*  */
 /*  */
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1000px){
 
     * {
         margin: 0;
@@ -2593,6 +2593,8 @@
 
     #main-center{
         display: flex;
+        justify-content: center;
+        
     }
 
     #main-first-flex {
