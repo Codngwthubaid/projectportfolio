@@ -2686,6 +2686,9 @@
     }
 
 
+    #main-second-flex-right-100-left-details-mention::-webkit-scrollbar {
+        display: none;
+    }
     #main-second-flex-right-100-left-details-mention {
         margin: 0px 5vw;
         text-align: center;
