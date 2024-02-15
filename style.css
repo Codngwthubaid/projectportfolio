@@ -2574,7 +2574,7 @@
 /*  */
 /*  */
 /*  */
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
 
     * {
         margin: 0;
@@ -2591,10 +2591,10 @@
         --capsules-background-color: #122b39;
     }
 
-    #main-center{
+    #main-center {
         display: flex;
         justify-content: center;
-        
+
     }
 
     #main-first-flex {
@@ -2689,11 +2689,12 @@
     #main-second-flex-right-100-left-details-mention::-webkit-scrollbar {
         display: none;
     }
+
     #main-second-flex-right-100-left-details-mention {
         margin: 0px 5vw;
         text-align: center;
         height: 100vh;
-   overflow-y: scroll ;
+        overflow-y: scroll;
     }
 
     .ABOUT {
