@@ -2592,6 +2592,7 @@
     }
 
     #main-center {
+        margin: 0px auto;
         display: flex;
         justify-content: center;
 
@@ -2600,7 +2601,7 @@
     #main-first-flex {
         display: flex;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
         height: 100vh;
     }
 
@@ -2634,25 +2635,25 @@
     }
 
     .name {
-        width: 80vw;
-        font-size: 2.55rem;
+        /* width: 80vw; */
+        font-size: 2rem;
         font-weight: bold;
         margin-top: 5vh;
         color: var(--bold-content-color);
     }
 
     .role {
-        width: 80vw;
-        font-size: 1.50rem;
+        /* width: 80vw; */
+        font-size: 1.25rem;
         font-weight: 600;
         color: var(--bold-content-color);
     }
 
 
     .role-2 {
-        width: 80vw;
+        /* width: 80vw; */
         font-weight: 500;
-        font-size: 18.5px;
+        font-size: 1rem;
         color: var(--nonbold-content-color);
     }
 
@@ -2668,19 +2669,19 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 72vw;
+        /* width: 72vw; */
         column-gap: 5px;
 
     }
 
     .png-logo {
-        width: 2.6rem;
+        width: 2rem;
         height: auto;
         cursor: pointer;
     }
 
     .png-logo-2 {
-        width: 1.9rem;
+        width: 1.5rem;
         height: auto;
         cursor: pointer;
     }
@@ -2691,7 +2692,7 @@
     }
 
     #main-second-flex-right-100-left-details-mention {
-        margin: 0px 5vw;
+        /* margin: 0px 5vw; */
         text-align: center;
         height: 100vh;
         overflow-y: scroll;
@@ -3196,6 +3197,7 @@
         padding: 10px 0px;
         border: 1px solid var(--nonbold-content-color);
         opacity: 0.5;
+        display: none;
     }
 
     #Copyright {
